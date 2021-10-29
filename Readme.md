@@ -20,7 +20,7 @@
 5) listLotsForSale(),listSoldLots(), and listWithdrawnLots() to list the lots in the specific status.
 
 ### test-network 구동 for Org1, Org2 and Org3
-#### hyperledger fabric v2.2
+- hyperledger fabric v2.2
   ./network.sh up createChannel -ca -s couchdb
   cd addOrg3
   ./addOrg3.sh up -ca -s couchdb
